@@ -1,0 +1,8 @@
+# MongoDB Configuration
+MONGODB_URI=mongodb+srv://Mayank2004:Mayank2004@test.x8q72sn.mongodb.net/book_explorer?retryWrites=true&w=majority&appName=test
+
+# Scraper Configuration
+BASE_URL=https://books.toscrape.com
+DELAY_BETWEEN_REQUESTS=1000
+MAX_RETRIES=3
+
