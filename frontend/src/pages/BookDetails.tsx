@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Container, Row, Col, Card, Button, Spinner, Alert, Badge } from 'react-bootstrap'
-import { ArrowLeft, ExternalLink } from 'react-bootstrap-icons'
+import { ArrowLeft, BoxArrowUpRight } from 'react-bootstrap-icons'
 import BookCard from '../components/BookCard'
 import { bookApi } from '../services/api'
 import { BookDetailsResponse, Book } from '../types/Book'
@@ -143,7 +143,7 @@ const BookDetails: React.FC = () => {
                 onClick={handleViewOriginal}
                 className="w-100"
               >
-                <ExternalLink className="me-2" />
+                <BoxArrowUpRight className="me-2" />
                 View Original Page
               </Button>
             </Card.Body>
